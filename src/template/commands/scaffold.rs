@@ -9,11 +9,15 @@ use crate::Day;
 const MODULE_TEMPLATE: &str = r#"advent_of_code::solution!(DAY_NUMBER);
 
 pub fn part_one(input: &str) -> Option<u32> {
-    None
+    solve(input).0
 }
 
 pub fn part_two(input: &str) -> Option<u32> {
-    None
+    solve(input).1
+}
+
+fn solve(input: &str) -> (Option<u32>, Option<u32>) {
+    (None, None)
 }
 
 #[cfg(test)]
